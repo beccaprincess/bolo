@@ -1,0 +1,212 @@
+body{
+	font-family: Nunito,sans-serif;
+	color: #1c1c1c;
+}
+h1,h2,h3{
+ font-family: asap, sans-serif;
+color: #FF3399;
+}
+
+.botao{
+
+	color: #FF3399;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #FFFFFF;
+	font-size: 3em;
+	border-radius: 3px;
+}
+
+/* navegacao*/
+
+
+
+}
+nav{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #FFFFFF;
+}
+
+nav  a {
+	text-decoration: none;
+	color: #FF3399;
+	font-weight: 800;
+	font-size: 32px;
+	font-family: montserrat, sans-serif;
+
+}
+
+nav ul{
+display: flex;
+flex-direction: column;
+align-items: center;
+list-style: none;
+padding: 0;
+width: 100%;
+
+}
+
+nav ul li {
+	text-align: center;
+	width: 100%;	
+}
+
+nav ul li a {
+ display: inline-block;
+ padding: 10px 0;
+ width: 100%;
+ text-decoration: none;
+ color: #FF3399;
+
+}
+header{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url("../img/confeiteiro.png");
+background-size: cover;
+background-repeat: no repeat;
+background-position: center;
+color: #FFFFFF;
+text-align: center;
+padding: 20px;
+
+}
+header h1{
+color: #FF3399;
+font-size: 50px;
+}
+
+header p{
+margin-bottom:2em;
+
+
+}
+
+#sobre{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 10px 10 px 20 px 20 px;
+background-color: #FF3399;
+color: #FFFFFF;
+}
+
+#sobre h2{
+
+	color: #FFFFFF;
+}
+#sobre p{
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+
+}
+#sobre .botao{
+background-color: #FFFFFF;
+color: 1C1C1C;
+
+}
+
+#serviços{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30 px;
+}
+
+#serviços div{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin-top: 30 px;
+
+}
+
+#contato{
+	display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 20 px;
+}
+
+#contato h2{
+	color: #000000;
+}
+footer{
+text-align: center;
+padding: 10px;
+background-color: #FF3399;
+color: #FFFFFF;
+
+}
+footer a{
+text-decoration: none;
+color: #FFFFFF;
+
+}
+@media screen and (min-width: 768px){
+  
+	nav{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+nav ul{
+	flex-direction: row;
+	width: 70%;
+}
+
+header{
+height: 600px;
+height: 60vh;
+justify-content: center;
+
+}
+
+#sobre{
+	height: 250px;
+	height: 30vh;
+	justify-content: center;
+	min-height: 250px;
+}
+
+#serviços{
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+max-height: 1000px;
+margin: auto;
+}
+
+#serviços h2{
+	text-align: center;
+	width: 100%;
+}
+
+#serviços div{
+flex-grow: 1 ;
+flex-basis: 150px;
+padding: 0 10px;
+}
+#contato {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 500px;
+	margin: 0 auto;
+}
+#contato h2, #contato p{
+	width: 100%;
+}
+
+}
+
+
+
+
+
+
